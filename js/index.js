@@ -24,7 +24,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|新|年|快|乐|');
+      S.UI.simulate('|新|年|快|乐|张|歌|斐|');
     }
 
     S.Drawing.loop(function () {
